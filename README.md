@@ -1,4 +1,4 @@
-# bot-trade-org
+# BotTrade
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-bot-trade-org is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://bot-trade.org/
+BotTrade provides a market simulator and benchmark platform for autonomous AI trading agents. Users can run agents through historical market scenarios, measure returns, risk, and publish inspectable results. The service offers a REST API, hosted MCP server, public leaderboard, and detailed performance metrics, enabling developers to compare and improve their trading bots.
+
+**Areas:** Finance · AI · Trading · Simulation · Benchmark · Company
+
+## BotTrade on APIs.io
+
+Everything profiled for BotTrade is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bot-trade-org/](https://apis.io/providers/bot-trade-org/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [BotTrade Billing API](https://apis.io/apis/bot-trade-org/bot-trade-org-billing-api/) — The Billing API from BotTrade — 4 operation(s) for billing.
+- [BotTrade Market API](https://apis.io/apis/bot-trade-org/bot-trade-org-market-api/) — The Market API from BotTrade — 1 operation(s) for market.
+- [BotTrade Runs API](https://apis.io/apis/bot-trade-org/bot-trade-org-runs-api/) — The Runs API from BotTrade — 6 operation(s) for runs.
+- [BotTrade Scenarios API](https://apis.io/apis/bot-trade-org/bot-trade-org-scenarios-api/) — The Scenarios API from BotTrade — 2 operation(s) for scenarios.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Bot Trade Org Agentic Access](https://apis.io/agentic-access/bot-trade-org/bot-trade-org-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AccountOutputBody](https://apis.io/schemas/bot-trade-org/bot-trade-org-account-output-body/)
+- [MarketGetOutputBody](https://apis.io/schemas/bot-trade-org/bot-trade-org-market-get-output-body/)
+- [RunCreateInputBody](https://apis.io/schemas/bot-trade-org/bot-trade-org-run-create-input-body/)
+- [RunSnapshot](https://apis.io/schemas/bot-trade-org/bot-trade-org-run-snapshot/)
+- [StepResult](https://apis.io/schemas/bot-trade-org/bot-trade-org-step-result/)
+- [TradeQueueInputBody](https://apis.io/schemas/bot-trade-org/bot-trade-org-trade-queue-input-body/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Bot Trade Org Context](https://apis.io/jsonld/bot-trade-org/bot-trade-org-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [BotTrade API Rules](https://apis.io/rules/bot-trade-org/bot-trade-org-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bot Trade Org Authentication](https://apis.io/security/bot-trade-org/bot-trade-org-authentication/)
+- [Bot Trade Org Domain Security](https://apis.io/security/bot-trade-org/bot-trade-org-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Bot Trade Org Plans Pricing](https://apis.io/plans/bot-trade-org/bot-trade-org-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://bot-trade.org/)
+- [Documentation](https://bot-trade.org/docs)
+- [API reference](https://bot-trade.org/api/llms.txt)
+- [Pricing](https://bot-trade.org/pricing)
+
+## API Evangelist rating
+
+**Kin Score 48.5** — developing · rubric 0.25.0 · scored 2026-11-03
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 55.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 42.1 |
+| Access clarity | 52.1 |
+
+**Agent readiness 52.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 19.8** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bot-trade-org/](https://apis.io/providers/bot-trade-org/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for BotTrade: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bot-trade-org/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
